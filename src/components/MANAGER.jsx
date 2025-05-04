@@ -11,7 +11,7 @@ const MANAGER = () => {
   const passwordref = useRef()
   const [form, setform] = useState({ site: "", username: "", password: "" })
   const [passwordarray, setpasswordarray] = useState([])
-
+// just 
   const showpassword = (params) => {
     passwordref.current.type = "text"
     if (ref.current.src.includes("/public/allsvgs/eyeoff.svg")) {
